@@ -1,6 +1,6 @@
-Ôªø# MMAT-MDM Migration Analysis Tool
+# MMAT-MDM Migration Analysis Tool
 
-Microsoft created the MDM Migration Analysis Tool ‚Äì aka MMAT  - to help.  
+Microsoft created the MDM Migration Analysis Tool ñ aka MMAT  - to help.  
 MMAT will determine which Group Policies have been set for a target user/computer and cross-reference against its built-in list of supported MDM policies.  
 MMAT will then generate both XML and HTML reports indicating the level of support for each Group Policy in terms of MDM equivalents.
 
@@ -25,18 +25,17 @@ To run this tool follow the instructions below:
 			Right-click Start, and then click Properties.
 			On the Start Menu tab, click Customize.
 			In the Customize Start Menu dialog box, scroll down to System Administrative Tools, and then select Display on the All Programs menu and the Start menu. Click OK. Shortcuts for snap-ins installed by Remote Server Administration Tools for Windows 7 with SP1 are added to the Administrative Tools list on the Start menu.
-			Here is more detailed about installation instruction
+			Here is more detailed about installation instruction--> https://www.microsoft.com/en-us/download/details.aspx?id=7887&fa43d42b-25b5-4a42-fe9b-1634f450f5ee=True
 
 	Windows 8 - https://www.microsoft.com/en-us/download/details.aspx?id=28972 
 	
 	Window 8.1 - https://www.microsoft.com/en-us/download/details.aspx?id=39296
-		Note: The installation may be stuck on ‚ÄúSearching for updates on this computer‚Äù. You can follow the solution on Appendix-A on "MDM Migration Analysis Tool Instructions.pdf". 
+		Note: The installation may be stuck on ìSearching for updates on this computerî. You can follow the solution on Appendix-A on "MDM Migration Analysis Tool Instructions.pdf". 
 		The basic idea is to extract the CAB file from the exe and install manually from command line.
 
 	Windows 10 - https://www.microsoft.com/en-us/download/details.aspx?id=45520
 
-2) Install this MMAT tool zipped Folder to your PC
- and unzip the folder.
+2) Install this MMAT tool zipped Folder to your PC and unzip the folder.
 3) Open a PowerShell Window running as an Admin.
 
 4) Change directory to MMAT-master folder which contains all the scripts and exe inside.
@@ -47,7 +46,6 @@ To run this tool follow the instructions below:
 
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
 $VerbosePreference="Continue"
-
 ./Invoke-MdmMigrationAnalysisTool.ps1 -collectGPOReports -runAnalysisTool 
 
 
