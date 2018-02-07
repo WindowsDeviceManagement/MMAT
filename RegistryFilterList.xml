@@ -9,6 +9,15 @@
     <ExcludedKey>Software\Policies\Microsoft\Office</ExcludedKey>
     <ExcludedKey>Software\Microsoft\Office</ExcludedKey>
     <ExcludedKey>Software\Microsoft\Windows\CurrentVersion\Explorer</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\AuthorizedApplications</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\GloballyOpenPorts</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile\AuthorizedApplications</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile\GloballyOpenPorts</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile\AuthorizedApplications</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile\GloballyOpenPorts</ExcludedKey>
+    <ExcludedKey>SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging</ExcludedKey>
     <ExcludedKey>Software\Microsoft\Internet Explorer</ExcludedKey>
     <ExcludedKey>software\policies\microsoft\shared tools\proofing tools\1.0\office</ExcludedKey>
     <ExcludedKey>software\policies\microsoft\shared tools\proofing tools\spelling</ExcludedKey>

@@ -4,6 +4,7 @@ Microsoft created the MDM Migration Analysis Tool – aka MMAT  - to help.
 MMAT will determine which Group Policies have been set for a target user/computer and cross-reference against its built-in list of supported MDM policies.  
 MMAT will then generate both XML and HTML reports indicating the level of support for each Group Policy in terms of MDM equivalents.
 
+MMAT version 2.0 contains the following changes: three new columns were added  - MDM CSP Name, MDM CSP setting URI, and Windows OS Version. There are additional supported settings including Security and Windows Firewall settings.
 
 To run this tool follow the instructions below:
 
