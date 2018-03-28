@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PolicyReportXml xmlns:reg="http://www.microsoft.com/GroupPolicy/Settings/Registry" xmlns="http://www.microsoft.com/MdmMigrationAnalysisTool">
   <MigrationAnalysisSchemaVersion>0.5</MigrationAnalysisSchemaVersion>
-  <MMATVersion>v2.0</MMATVersion>
+  <MMATVersion>v2.1</MMATVersion>
   <ReportSourceInformation>
     <OSVersion>10.0.16299.0</OSVersion>
     <UserName>Administrator</UserName>

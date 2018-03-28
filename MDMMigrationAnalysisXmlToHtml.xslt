@@ -911,7 +911,7 @@
      <xsl:template match="my:PolicyInfo[@xsi:type='RegistrySettingPolicyInfo']">
     <tr>
       <td>
-        <xsl:value-of select="my:KeyPath" />
+        <xsl:value-of select="my:KeyPath" />\<xsl:value-of select="my:Name" />
       </td>      
       <td>
         <xsl:value-of select="my:Value" />

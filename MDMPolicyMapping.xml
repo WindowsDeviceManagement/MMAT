@@ -8,6 +8,12 @@
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>Accounts: Administrator account status</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableGuestAccountStatus</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
       <Name>Accounts: Block Microsoft accounts</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_BlockMicrosoftAccounts</CspUri>
       <CspName>Policy</CspName>
@@ -31,35 +37,179 @@
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
-    <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Control Panel/Personalization/Force a specific default lock screen and logon image</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/EnforceLockScreenAndLogonImage</CspUri>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (AccessCredentialManagerAsTrustedCaller)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/AccessCredentialManagerAsTrustedCaller</CspUri>
       <CspName>Policy</CspName>
-      <Version>15063</Version>
+      <Version>17130</Version>
     </PolicyMap>
-    <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Control Panel/Personalization/Prevent enabling lock screen slide show</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventLockScreenSlideShow</CspUri>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (AccessFromNetwork)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/AccessFromNetwork</CspUri>
       <CspName>Policy</CspName>
-      <Version>15063</Version>
+      <Version>17130</Version>
     </PolicyMap>
-    <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Control Panel/Printers/Prevent addition of printers</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/Education/PreventAddingNewPrinters</CspUri>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (ActAsPartOfTheOperatingSystem)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/ActAsPartOfTheOperatingSystem</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
-    <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Control Panel/Regional and Language Options/Allow input personalization</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/AllowInputPersonalization</CspUri>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (AllowLocalLogOn)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/AllowLocalLogOn</CspUri>
       <CspName>Policy</CspName>
-      <Version>15063</Version>
+      <Version>17130</Version>
     </PolicyMap>
-    <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Control Panel/Settings Page Visibility</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/Settings/PageVisibilityList</CspUri>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (BackupFilesAndDirectories)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/BackupFilesAndDirectories</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (ChangeSystemTime)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/ChangeSystemTime</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (CreatePageFile)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePageFile</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (CreateToken)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateToken</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (CreateGlobalObjects)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateGlobalObjects</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (CreatePermanentSharedObjects)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePermanentSharedObjects</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (CreateSymbolicLinks)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateSymbolicLinks</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (DebugPrograms)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/DebugPrograms</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (DenyAccessFromNetwork)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyAccessFromNetwork</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (DenyLocalLogOn)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyLocalLogOn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (DenyRemoteDesktopServicesLogOn)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyRemoteDesktopServicesLogOn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (EnableDelegation)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/EnableDelegation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (RemoteShutdown)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/RemoteShutdown</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (GenerateSecurityAudits)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/GenerateSecurityAudits</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (ImpersonateClient)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/ImpersonateClient</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (IncreaseSchedulingPriority)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/IncreaseSchedulingPriority</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (LoadUnloadDeviceDrivers)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/LoadUnloadDeviceDrivers</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (LockMemory)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/LockMemory</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (ManageAuditingAndSecurityLog)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/ManageAuditingAndSecurityLog</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (ModifyObjectLabel)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/ModifyObjectLabel</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (ModifyFirmwareEnvironment)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/ModifyFirmwareEnvironment</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (ManageVolume)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/ManageVolume</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (ProfileSingleProcess)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/ProfileSingleProcess</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (RestoreFilesAndDirectories)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/RestoreFilesAndDirectories</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Rights (TakeOwnership)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/UserRights/TakeOwnership</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="OptionalPolicyMap">
       <Name>Devices: Allow undock without having to log on</Name>
@@ -127,24 +277,6 @@
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
-    <PolicyMap xsi:type="SecurityAccountPolicyMap">
-      <Name>LockoutBadCount</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/EnforceLockScreenAndLogonImage</CspUri>
-      <CspName>Policy</CspName>
-      <Version>15063</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="SecurityAccountPolicyMap">
-      <Name>MaximumPasswordAge</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordExpiration</CspUri>
-      <CspName>Policy</CspName>
-      <Version>15063</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="SecurityAccountPolicyMap">
-      <Name>MinimumPasswordLength</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinDevicePasswordLength</CspUri>
-      <CspName>Policy</CspName>
-      <Version>15063</Version>
-    </PolicyMap>
     <PolicyMap xsi:type="OptionalPolicyMap">
       <Name>Network access: Do not allow anonymous enumeration of SAM accounts and shares</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccountsAndShares</CspUri>
@@ -169,11 +301,245 @@
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>Recovery console: Allow automatic administrative logon</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/RecoveryConsole_AllowAutomaticAdministrativeLogon</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>Shutdown: Allow system to be shut down without having to log on</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Shutdown_AllowSystemToBeShutDownWithoutHavingToLogOn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>Shutdown: Clear virtual memory pagefile</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Shutdown_ClearVirtualMemoryPageFile</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Allow UIAccess applications to prompt for elevation without using the secure desktop</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_AllowUIAccessApplicationsToPromptForElevation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Behavior of the elevation prompt for standard users</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Detect application installations and prompt for elevation</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Only elevate executable files that are signed and validated</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateExecutableFilesThatAreSignedAndValidated</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Only elevate UIAccess applications that are installed in secure locations</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Run All Administrators In Admin Approval Mode</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Switch to the secure desktop when prompting for elevation</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_SwitchToTheSecureDesktopWhenPromptingForElevation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Use Admin Approval Mode for the built-in Administrator account</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_UseAdminApprovalMode</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="OptionalPolicyMap">
+      <Name>User Account Control: Virtualize file and registry write failures to per-user locations</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="SecurityAccountPolicyMap">
+      <Name>LockoutBadCount</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/EnforceLockScreenAndLogonImage</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="SecurityAccountPolicyMap">
+      <Name>MaximumPasswordAge</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordExpiration</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="SecurityAccountPolicyMap">
+      <Name>MinimumPasswordAge</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinimumPasswordAge</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="SecurityAccountPolicyMap">
+      <Name>MinimumPasswordLength</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinDevicePasswordLength</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="SecurityAccountPolicyMap">
+      <Name>PasswordComplexity</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PasswordComplexity</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="SecurityAccountPolicyMap">
+      <Name>PasswordHistorySize</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordHistory</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Control Panel/Allow Online Tips</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Settings/AllowOnlineTips</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Control Panel/Personalization/Force a specific default lock screen and logon image</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/EnforceLockScreenAndLogonImage</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Control Panel/Personalization/Prevent enabling lock screen camera</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventEnablingLockScreenCamera</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Control Panel/Personalization/Prevent enabling lock screen slide show</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventLockScreenSlideShow</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Control Panel/Printers/Prevent addition of printers</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Education/PreventAddingNewPrinters</CspUri>
+      <CspName>Policy</CspName>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Control Panel/Regional and Language Options/Allow input personalization</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/AllowInputPersonalization</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Control Panel/Settings Page Visibility</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Settings/PageVisibilityList</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MS Security Guide/Apply UAC restrictions to local accounts on network logons</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MS Security Guide/Configure SMB v1 client driver</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MS Security Guide/Configure SMB v1 server</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1Server</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MS Security Guide/Enable Structured Exception Handling Overwrite Protection (SEHOP)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MS Security Guide/Turn on Windows Defender protection against Potentially Unwanted Applications</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/TurnOnWindowsDefenderProtectionAgainstPotentiallyUnwantedApplications</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MS Security Guide/WDigest Authentication (disabling may require KB2871997)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MSS (Legacy)/MSS: (DisableIPSourceRouting IPv6) IP source routing protection level (protects against packet spoofing)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MSS (Legacy)/MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPSourceRoutingProtectionLevel</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MSS (Legacy)/MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MSS (Legacy)/MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/Fonts/Enable Font Providers</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/AllowFontProviders</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/Lanman Workstation/Enable insecure guest logons</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LanmanWorkstation/EnableInsecureGuestLogons</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Network/Network Connections/Prohibit installation and configuration of Network Bridge on your DNS domain network</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Connectivity/ProhibitInstallationAndConfigurationOfNetworkBridge </CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/Network Connections/Prohibit use of Internet Connection Sharing on your DNS domain network</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Wifi/AllowInternetSharing</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Network/Network Connections/Windows Defender Firewall/Domain Profile/Windows Defender Firewall: Allow ICMP exceptions</Name>
@@ -392,6 +758,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/Network Isolation/Intranet proxy servers for  apps</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseInternalProxyServers</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Network/Network Isolation/Private network ranges for  apps</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseIPRange</CspUri>
       <CspName>Policy</CspName>
@@ -422,10 +794,46 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Network/WLAN Service/WLAN Settings/Allow Windows to automatically connect to suggested open hotspots, to networks shared by contacts, and to hotspots offering paid services</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <Name>Network/Windows Connection Manager/Prohibit connection to non-domain networks when connected to domain authenticated network</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/Windows Connection Manager/Prohibit connection to roaming Mobile Broadband networks</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Connectivity/AllowCellularDataRoaming</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/WLAN Service/WLAN Settings/Allow Windows to automatically connect to suggested open hotspots, to networks shared by contacts, and to hotspots offering paid services</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Wifi/AllowAutoConnectToWiFiSenseHotspots</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/WWAN Service/Cellular Data Access/Let Windows apps access cellular data</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Cellular/LetAppsAccessCellularData_ForceAllowTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/WWAN Service/Cellular Data Access/Let Windows apps access cellular data</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Cellular/LetAppsAccessCellularData_ForceDenyTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/WWAN Service/Cellular Data Access/Let Windows apps access cellular data</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Cellular/LetAppsAccessCellularData_UserInControlOfTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/WWAN Service/Cellular Data Access/Let Windows apps access cellular data</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Cellular/LetAppsAccessCellularData</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Network/WWAN Service/WWAN Media Cost/Set 3G Cost</Name>
@@ -439,17 +847,11 @@
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
-    <PolicyMap xsi:type="SecurityAccountPolicyMap">
-      <Name>PasswordComplexity</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PasswordComplexity</CspUri>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Network/WWAN Service/WWAN UI Settings/Set Per-App Cellular Access UI Visibility</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Cellular/ShowAppCellularAccessUI</CspUri>
       <CspName>Policy</CspName>
-      <Version>15063</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="SecurityAccountPolicyMap">
-      <Name>PasswordHistorySize</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordHistory</CspUri>
-      <CspName>Policy</CspName>
-      <Version>15063</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Printers/Allow printers to be published</Name>
@@ -462,24 +864,6 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Printers/PointAndPrintRestrictions</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>Recovery console: Allow automatic administrative logon</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/RecoveryConsole_AllowAutomaticAdministrativeLogon</CspUri>
-      <CspName>Policy</CspName>
-      <Version>TBD</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>Shutdown: Allow system to be shut down without having to log on</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Shutdown_AllowSystemToBeShutDownWithoutHavingToLogOn</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>Shutdown: Clear virtual memory pagefile</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Shutdown_ClearVirtualMemoryPageFile</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>SOFTWARE/Policies/Microsoft/WindowsFirewall/DomainProfile/AuthorizedApplications	</Name>
@@ -536,10 +920,40 @@
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Start Menu and Taskbar/Disable context menus in the Start Menu</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Start/DisableContextMenus</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Start Menu and Taskbar/Notifications/Turn off notification mirroring</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Notifications/DisallowNotificationMirroring</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Start Menu and Taskbar/Notifications/Turn off notifications network usage</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Notifications/DisallowCloudNotification</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Start Menu and Taskbar/Notifications/Turn off tile notifications</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Notifications/DisallowTileNotification</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Start Menu and Taskbar/Remove "Recently added" list from Start Menu</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Start/HideRecentlyAddedApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Start Menu and Taskbar/Show additional calendar</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Settings/ConfigureTaskbarCalendar</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Start Menu and Taskbar/Start Layout</Name>
@@ -587,7 +1001,7 @@
       <Name>System/App-V/PackageManagement/Enable automatic cleanup of unused appv packages</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/AppVirtualization/AllowPackageCleanup</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/App-V/Publishing/Enable Publishing Refresh UX</Name>
@@ -716,6 +1130,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Credentials Delegation/Remote host allows delegation of non-exportable credentials</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Device Guard/Turn On Virtualization Based Security</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Deviceguard/EnableVirtualizationBasedSecurity</CspUri>
       <CspName>Policy</CspName>
@@ -734,6 +1154,36 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Display/Configure Per-Process System DPI settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Display/EnablePerProcessDpiForApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Display/Configure Per-Process System DPI settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Display/DisablePerProcessDpiForApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Display/Configure Per-Process System DPI settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Display/EnablePerProcessDpi</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Display/Turn off GdiDPIScaling for applications</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Display/TurnOffGdiDPIScalingForApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Display/Turn on GdiDPIScaling for applications</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Display/TurnOnGdiDPIScalingForApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Early Launch Antimalware/Boot-Start Driver Initialization Policy</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/System/BootStartDriverInitialization</CspUri>
       <CspName>Policy</CspName>
@@ -744,6 +1194,12 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/EnhancedStorageDevices</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Group Policy/Configure web-to-app linking with app URI handlers</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationDefaults/EnableAppUriHandlers</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Internet Communication Management/Internet Communication settings/Turn off downloading of print drivers over HTTP</Name>
@@ -767,7 +1223,7 @@
       <Name>System/Internet Communication Management/Internet Communication settings/Turn off Windows Network Connectivity Status Indicator active tests</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Connectivity/DisallowNetworkConnectivityActiveTests</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Kerberos/Fail authentication requests when Kerberos armoring is not available</Name>
@@ -803,19 +1259,25 @@
       <Name>System/Logon/Do not display network selection UI</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/DontDisplayNetworkSelectionUI</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Logon/Enumerate local users on domain-joined computers</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnumerateLocalUsersOnDomainJoinedComputers</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Logon/Hide entry points for Fast User Switching</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/HideFastUserSwitching</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Logon/Turn off app notifications on the lock screen</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/DisableLockScreenAppNotifications</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Logon/Turn off picture password sign-in</Name>
@@ -828,6 +1290,30 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/CredentialProviders/AllowPINLogon</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/OS Policies/Allow publishing of User Activities</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/PublishUserActivities</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/OS Policies/Allow upload of User Activities</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/UploadUserActivities</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/OS Policies/Enables Activity Feed</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/EnableActivityFeed</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Sleep Settings/Allow standby states (S1-S3) when sleeping (on battery)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/AllowStandbyStatesWhenSleepingOnBattery</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Power Management/Sleep Settings/Allow standby states (S1-S3) when sleeping (plugged in)</Name>
@@ -885,7 +1371,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Remote Assistance/Configure Offer Remote Assistance</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/UnsolicitedRemoteAssitance</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/UnsolicitedRemoteAssistance</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
@@ -920,76 +1406,28 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Storage Health/Allow downloading updates to the Disk Failure Prediction Model</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/AllowDiskHealthModelUpdates</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/System Restore/Turn off System Restore</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/System/DisableSystemRestore</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Trusted Platform Module Services/Configure the system to clear the TPM if it is not in a ready state.</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Security/ClearTPMIfNotReady</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/User Profiles/Turn off the advertising ID</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/DisableAdvertisingID</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Allow UIAccess applications to prompt for elevation without using the secure desktop</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_AllowUIAccessApplicationsToPromptForElevation</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Behavior of the elevation prompt for standard users</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-	 <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Detect application installations and prompt for elevation</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Only elevate executable files that are signed and validated</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateExecutableFilesThatAreSignedAndValidated</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Only elevate UIAccess applications that are installed in secure locations</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Run All Administrators In Admin Approval Mode</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Switch to the secure desktop when prompting for elevation</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_SwitchToTheSecureDesktopWhenPromptingForElevation</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Use Admin Approval Mode for the built-in Administrator account</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_UseAdminApprovalMode</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
-    </PolicyMap>
-    <PolicyMap xsi:type="OptionalPolicyMap">
-      <Name>User Account Control: Virtualize file and registry write failures to per-user locations</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations</CspUri>
-      <CspName>Policy</CspName>
-      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/ActiveX Installer Service/Approved Installation Sites for ActiveX Controls</Name>
@@ -1034,6 +1472,30 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps access an eye tracker device</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsAccessGazeInput_ForceAllowTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps access an eye tracker device</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsAccessGazeInput_ForceDenyTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps access an eye tracker device</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsAccessGazeInput_UserInControlOfTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps access an eye tracker device</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsAccessGazeInput</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/App Privacy/Let Windows apps access call history</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsAccessCallHistory</CspUri>
       <CspName>Policy</CspName>
@@ -1049,7 +1511,7 @@
       <Name>Windows Components/App Privacy/Let Windows apps access diagnostic information about other apps</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsGetDiagnosticInfo</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/App Privacy/Let Windows apps access email</Name>
@@ -1085,7 +1547,7 @@
       <Name>Windows Components/App Privacy/Let Windows apps access Tasks</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsAccessTasks</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/App Privacy/Let Windows apps access the calendar</Name>
@@ -1112,6 +1574,30 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps communicate with unpaired devices</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsSyncWithDevices_ForceAllowTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps communicate with unpaired devices</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsSyncWithDevices_ForceDenyTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps communicate with unpaired devices</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsSyncWithDevices_UserInControlOfTheseApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps communicate with unpaired devices</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsSyncWithDevices</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/App Privacy/Let Windows apps control radios</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsAccessRadios</CspUri>
       <CspName>Policy</CspName>
@@ -1127,13 +1613,19 @@
       <Name>Windows Components/App Privacy/Let Windows apps run in the background</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsRunInBackground</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/App Privacy/Let Windows apps sync with devices</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsSyncWithDevices</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App runtime/Allow Microsoft accounts to be optional</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppRuntime/AllowMicrosoftAccountsToBeOptional</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/AutoPlay Policies/Disallow Autoplay for non-volume devices</Name>
@@ -1214,10 +1706,34 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Cloud Content/Configure Windows spotlight on lock screen</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/ConfigureWindowsSpotlightOnLockScreen</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Cloud Content/Do not show Windows tips</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowWindowsTips</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Cloud Content/Do not suggest third-party content in Windows spotlight</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowThirdPartySuggestionsInWindowsSpotlight</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Cloud Content/Do not use diagnostic data for tailored experiences</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowTailoredExperiencesWithDiagnosticData</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Cloud Content/Turn off all Windows spotlight features</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlight</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Cloud Content/Turn off Microsoft consumer experiences</Name>
@@ -1226,16 +1742,34 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Cloud Content/Turn off the Windows Welcome Experience</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlightWindowsWelcomeExperience</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Cloud Content/Turn off Windows Spotlight on Action Center</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlightOnActionCenter</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Cloud Content/Turn off Windows Spotlight on Settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlightOnSettings</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Connect/Don't allow this PC to be projected to</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/WirelessDisplay/AllowProjectionToPC</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Connect/Require pin for pairing</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/WirelessDisplay/RequirePinForPairing</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Credential User Interface/Do not display the password reveal button</Name>
@@ -1251,21 +1785,33 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Allow Telemetry</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/AllowTelemetry</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Configure Authenticated Proxy usage for the Connected User Experience and Telemetry service</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/System/DisableEnterpriseAuthProxy</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Configure Connected User Experiences and Telemetry</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/System/TelemetryProxy </CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Data Collection and Preview Builds/Configure telemetry opt-in change notifications.</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/ConfigureTelemetryOptInChangeNotification</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Data Collection and Preview Builds/Configure telemetry opt-in setting user interface.</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/ConfigureTelemetryOptInSettingsUx</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Disable pre-release features or settings</Name>
@@ -1277,7 +1823,13 @@
       <Name>Windows Components/Data Collection and Preview Builds/Do not show feedback notifications</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/DoNotShowFeedbackNotifications</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Data Collection and Preview Builds/Limit Enhanced diagnostic data to the minimum required by Windows Analytics</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/LimitEnhancedDiagnosticDataWindowsAnalytics</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Toggle user control over Insider builds</Name>
@@ -1292,6 +1844,24 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Allow uploads while the device is on battery while under set Battery level (percentage)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinBatteryPercentageAllowedToUpload</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Delay background download from http (in secs)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODelayBackgroundDownloadFromHttp</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Delay Foreground download from http (in secs)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODelayForegroundDownloadFromHttp</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Download Mode</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODownloadMode</CspUri>
       <CspName>Policy</CspName>
@@ -1299,9 +1869,9 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Enable Peer Caching while the device connects via VPN</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOAllowVPNPeerCaching</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Group ID</Name>
@@ -1319,7 +1889,7 @@
       <Name>Windows Components/Delivery Optimization/Max Cache Size (percentage)</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Max Cache Size (Percentage)</Name>
@@ -1334,6 +1904,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Maximum Background Download Bandwidth (percentage)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOPercentageMaxBackgroundBandwidth</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Maximum Download Bandwidth (in KB/s)</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMaxDownloadBandwidth</CspUri>
       <CspName>Policy</CspName>
@@ -1343,13 +1919,19 @@
       <Name>Windows Components/Delivery Optimization/Maximum Download Bandwidth (percentage)</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Maximum Download Bandwidth (Percentage)</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOPercentageMaxDownloadBandwidth</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Maximum Foreground Download Bandwidth (percentage)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOPercentageMaxForegroundBandwidth</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Minimum Background QoS (in KB/s)</Name>
@@ -1359,21 +1941,21 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Minimum disk size allowed to use Peer Caching (in GB)</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinDiskSizeAllowedToPeer</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Minimum Peer Caching Content File Size (in MB)</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinFileSizeToCache</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Minimum RAM capacity (inclusive) required to enable use of Peer Caching (in GB)</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOMinRAMAllowedToPeer</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Modify Cache Drive</Name>
@@ -1388,10 +1970,34 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Select a method to restrict Peer Selection</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DORestrictPeerSelectionBy</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Select the source of Group IDs</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOGroupIdSource</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Set Business Hours to Limit Background Download Bandwidth</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOSetHoursToLimitBackgroundDownloadBandwidth</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Set Business Hours to Limit Foreground Download Bandwidth</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DOSetHoursToLimitForegroundDownloadBandwidth</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Edge UI/Allow edge swipe</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/LockDown/AllowEdgeSwipe</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Event Log Service/Application/Control Event Log behavior when the log file reaches its maximum size</Name>
@@ -1422,6 +2028,36 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/SmartScreen/EnableSmartScreenInShell</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/File Explorer/Set a default associations configuration file</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationDefaults/DefaultAssociationsConfiguration</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/File Explorer/Turn off Data Execution Prevention for Explorer</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/File Explorer/Turn off heap termination on corruption</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffHeapTerminationOnCorruption</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Find My Device/Turn On/Off Find My Device</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowFindMyDevice</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Handwriting/Handwriting Panel Default Mode Docked</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Handwriting/PanelDefaultModeDocked</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Add a specific list of search providers to the user's list of search providers</Name>
@@ -1541,7 +2177,7 @@
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Internet Zone/Allow cut, copy or paste operations from the clipboard via script</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Internet Zone/Allow drag and drop or copy and paste files</Name>
@@ -1596,6 +2232,12 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Internet Zone/Allow VBScript to run in Internet Explorer</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Internet Zone/Automatic prompting for ActiveX controls</Name>
@@ -2036,6 +2678,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Locked-Down Intranet Zone/Java permissions</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetJavaPermissions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Locked-Down Intranet Zone/Navigate windows and frames across different domains</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetZoneNavigateWindowsAndFrames</CspUri>
       <CspName>Policy</CspName>
@@ -2327,7 +2975,7 @@
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Allow cut, copy or paste operations from the clipboard via script</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Allow drag and drop or copy and paste files</Name>
@@ -2394,6 +3042,12 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Allow VBScript to run in Internet Explorer</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Automatic prompting for ActiveX controls</Name>
@@ -2517,7 +3171,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Turn on Cross-Site Scripting Filter</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneTurnOnCrossSiteScriptingFilter</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
@@ -2595,7 +3249,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Trusted Sites Zone/Don't run antimalware programs against ActiveX controls</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDontRunAntimalwareProgramsAgainstActiveXControls</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
@@ -2759,7 +3413,13 @@
       <Name>Windows Components/Internet Explorer/Security Features/Binary Behavior Security Restriction/Internet Explorer Processes</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Consistent Mime Handling/Internet Explorer Processes</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Mime Sniffing Safety Feature/Internet Explorer Processes</Name>
@@ -2783,25 +3443,49 @@
       <Name>Windows Components/Internet Explorer/Security Features/Protection From Zone Elevation/All Processes</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Protection From Zone Elevation/Internet Explorer Processes</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Restrict ActiveX Install/All Processes</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Restrict ActiveX Install/Internet Explorer Processes</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Restrict File Download/All Processes</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Restrict File Download/Internet Explorer Processes</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Scripted Window Security Restrictions/All Processes</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Scripted Window Security Restrictions/Internet Explorer Processes</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Zones: Do not allow users to add/delete sites</Name>
@@ -2858,22 +3542,64 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Windows Components/Microsoft Edge/Allow Address bar drop-down list suggestions</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <Name>Windows Components/Location and Sensors/Turn off location</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/AllowLocation</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Location and Sensors/Windows Location Provider/Turn off Windows Location Provider</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Location/EnableLocation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Maps/Turn off Automatic Download and Update of Map Data</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Maps/EnableOfflineMapsAutoUpdate</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Messaging/Allow Message Service Cloud Sync</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Messaging/AllowMessageSync</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Allow a shared Books folder</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/UseSharedFolderForBooks</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Allow Address bar drop-down list suggestions</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowAddressBarDropdown</CspUri>
+      <CspName>Policy</CspName>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Allow Adobe Flash</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowFlash</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow clearing browsing data on exit</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ClearBrowsingDataOnExit</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow Developer Tools</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowDeveloperTools</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Allow extended telemetry for the Books tab</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/EnableExtendedBooksTelemetry</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow Extensions</Name>
@@ -2889,21 +3615,27 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow Microsoft Compatibility List</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowMicrosoftCompatibilityList</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow search engine customization</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowSearchEngineCustomization</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Always show the Books Library in Microsoft Edge</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AlwaysEnableBooksLibrary</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure additional search engines</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureAdditionalSearchEngines</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure Autofill</Name>
@@ -2955,9 +3687,15 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure Start pages</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/HomePages</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Configure the Adobe Flash Click-to-Run setting</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowFlashClickToRun</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure the Enterprise Mode Site List</Name>
@@ -2967,27 +3705,27 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure Windows Defender SmartScreen</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowSmartScreen</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Disable lockdown of Start pages</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/DisableLockdownOfStartPages</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Keep favorites in sync between Internet Explorer and Microsoft Edge</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/SyncFavoritesBetweenIEAndMicrosoftEdge</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent access to the about:flags page in Microsoft Edge</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventAccessToAboutFlagsInMicrosoftEdge</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent bypassing SmartScreen prompts for files</Name>
@@ -3005,31 +3743,49 @@
       <Name>Windows Components/Microsoft Edge/Prevent bypassing Windows Defender SmartScreen prompts for files</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent bypassing Windows Defender SmartScreen prompts for sites</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Prevent changes to Favorites on Microsoft Edge</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/LockdownFavorites</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent Microsoft Edge from gathering Live Tile information when pinning a site to Start</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventLiveTileDataCollection</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Prevent Microsoft Edge from starting and loading the Start and New Tab page at Windows startup and each time Microsoft Edge is closed</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventTabPreloading</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent the First Run webpage from opening on Microsoft Edge</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventFirstRunPage</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent using Localhost IP address for WebRTC</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventUsingLocalHostIPAddressForWebRTC</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Provision Favorites</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ProvisionFavorites</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Send all intranet sites to Internet Explorer 11</Name>
@@ -3039,9 +3795,9 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Set default search engine</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/SetDefaultSearchEngine</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Show message when opening sites in Internet Explorer</Name>
@@ -3050,10 +3806,16 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Secondary Authentication Factor/Allow companion device for secondary authentication</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Authentication/AllowSecondaryAuthenticationDevice</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/OneDrive/Prevent the usage of OneDrive for file storage</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/System/DisableOneDriveFileSync</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Remote Desktop Services/Remote Desktop Connection Client/Do not allow passwords to be saved</Name>
@@ -3098,6 +3860,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Allow Cloud Search</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/AllowCloudSearch</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Search/Allow Cortana</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/AllowCortana</CspUri>
       <CspName>Policy</CspName>
@@ -3110,6 +3878,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Allow Cortana Page in OOBE on an AAD account</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/AllowCortanaInAAD</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Search/Allow indexing of encrypted files</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/AllowIndexingEncryptedStoresOrItems</CspUri>
       <CspName>Policy</CspName>
@@ -3117,9 +3891,45 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Search/Allow search and Cortana to use location</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/AllowSearchToUseLocation</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Allow use of diacritics</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/AllowUsingDiacritics</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Always use automatic language detection when indexing content and properties</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/AlwaysUseAutoLangDetection</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Disable indexer backoff</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/DisableBackoff</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Do not allow locations on removable drives to be added to libraries</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/DisableRemovableDriveIndexing</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Don't search the web or display web results in Search</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/DoNotUseWebResults</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Prevent clients from querying the index remotely</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/PreventRemoteQueries</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Search/Set the SafeSearch setting for Search</Name>
@@ -3128,10 +3938,16 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Search/Stop indexing in the event of limited hard drive space</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/PreventIndexingLowDiskSpaceMB</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Software Protection Platform/Control Device Reactivation for Retail devices</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Licensing/AllowWindowsEntitlementReactivation</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Software Protection Platform/Turn off KMS Client Online AVS Validation</Name>
@@ -3143,13 +3959,31 @@
       <Name>Windows Components/Speech/Allow Automatic Update of Speech Data</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Speech/AllowSpeechModelUpdate</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Store/Disable all apps from Microsoft Store </Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/DisableStoreOriginatedApps</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Store/Disable all apps from Windows Store </Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/DisableStoreOriginatedApps</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Store/Only display the private store within the Microsoft Store</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/RequirePrivateStoreOnly</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Store/Turn off Automatic Download and Install of updates</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/AllowAppStoreAutoUpdate</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Sync your settings/Do not sync</Name>
@@ -3161,157 +3995,403 @@
       <Name>Windows Components/Sync your settings/Do not sync passwords</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Text Input/Allow Uninstallation of Language Features</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/TextInput/AllowLanguageFeaturesUninstall</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Text Input/Improve inking and typing recognition</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/TextInput/AllowLinguisticDataCollection</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Client Interface/Enable headless UI mode</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowUserUIAccess</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Exclusions/Extension Exclusions</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ExcludedPaths</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Exclusions/Path Exclusions</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ExcludedExtensions</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Exclusions/Process Exclusions</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ExcludedProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/MAPS/Join Microsoft MAPS</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowCloudProtection</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/MAPS/Send file samples when further analysis is required</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/SubmitSamplesConsent</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/MpEngine/Configure extended cloud check</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/CloudExtendedTimeout</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/MpEngine/Select cloud protection level</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/CloudBlockLevel</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Quarantine/Configure removal of items from Quarantine folder</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/DaysToRetainCleanedMalware</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Real-time Protection/Configure monitoring for incoming and outgoing file and program activity</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/RealTimeScanDirection</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Real-time Protection/Monitor file and program activity on your computer</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowOnAccessProtection</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Real-time Protection/Scan all downloaded files and attachments</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowIOAVProtection</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Real-time Protection/Turn off real-time protection</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowRealtimeMonitoring</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Real-time Protection/Turn on behavior monitoring</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowBehaviorMonitoring</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Run full scan on mapped network drives</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowFullScanOnMappedNetworkDrives</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Scan archive files</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowArchiveScanning</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Scan network files</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowScanningNetworkFiles</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Scan removable drives</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowFullScanRemovableDriveScanning</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Specify the day of the week to run a scheduled scan</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ScheduleScanDay</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Specify the maximum percentage of CPU utilization during a scan</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AvgCPULoadFactor</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Specify the scan type to use for a scheduled scan</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ScanParameter</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Specify the time for a daily quick scan</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ScheduleQuickScanTime</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Specify the time of day to run a scheduled scan</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ScheduleScanTime</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Turn on e-mail scanning</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowEmailScanning</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Signature Updates/Specify the interval to check for definition updates</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/SignatureUpdateInterval</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Threats/Specify threat alert levels at which default action should not be taken when detected</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ThreatSeverityDefaultAction</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Windows Defender Exploit Guard/Attack Surface Reduction/Configure Attack Surface Reduction rules</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Windows Defender Exploit Guard/Attack Surface Reduction/Exclude files and paths from Attack Surface Reduction Rules</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Windows Defender Exploit Guard/Controlled Folder Access/Configure allowed applications</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ControlledFolderAccessAllowedApplications</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Windows Defender Exploit Guard/Controlled Folder Access/Configure Controlled folder access</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/EnableControlledFolderAccess</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Windows Defender Exploit Guard/Controlled Folder Access/Configure protected folders</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/ControlledFolderAccessProtectedFolders</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Windows Defender Exploit Guard/Network Protection/Prevent users and apps from accessing dangerous websites</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Allow data persistence for Windows Defender Application Guard</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AllowPersistence</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Allow files to download and save to the host operating system from Windows Defender Application Guard</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/SaveFilesToHost</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Allow hardware-accelerated rendering for Windows Defender Application Guard</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AllowVirtualGPU</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Configure Windows Defender Application Guard clipboard settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AppHVSIClipboardFileType</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Configure Windows Defender Application Guard clipboard settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AppHVSIClipboardSettings</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Configure Windows Defender Application Guard print settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AppHVSIPrintingSettings</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Prevent enterprise websites from loading non-enterprise content in Microsoft Edge and Internet Explorer</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AuditApplicationGuard</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Prevent enterprise websites from loading non-enterprise content in Microsoft Edge and Internet Explorer</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/BlockNonEnterpriseContent</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Turn on Windows Defender Application Guard in Enterprise Mode</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AllowAppHVSI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Exploit Guard/Exploit Protection/Use a common set of exploit protection settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ExploitGuard/ExploitProtectionSettings</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Account protection/Hide the Account protection area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableAccountProtectionUI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/App and browser protection/Hide the App and browser protection area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableAppBrowserUI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/App and browser protection/Prevent users from modifying settings</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisallowExploitProtectionOverride</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Device performance and health/Hide the Device performance and health area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableHealthUI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Device security/Hide the Device security area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableDeviceSecurityUI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Device security/Hide the Secure boot area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/HideSecureBoot</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Device security/Hide the Security processor (TPM) troubleshooter page</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/HideTPMTroubleshooting</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Enterprise Customization/Configure customized contact information</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/EnableInAppCustomization</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Enterprise Customization/Configure customized notifications</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/EnableCustomizedToasts</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Enterprise Customization/Specify contact company name</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/CompanyName</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Enterprise Customization/Specify contact email address or Email ID</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/Email</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Enterprise Customization/Specify contact phone number or Skype ID</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/Phone</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Enterprise Customization/Specify contact website</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/URL</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Family options/Hide the Family options area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableFamilyUI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Firewall and network protection/Hide the Firewall and network protection area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableNetworkUI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Notifications/Hide all notifications</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableNotifications</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Notifications/Hide non-critical notifications</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableEnhancedNotifications</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Virus and threat protection/Hide the Ransomware data recovery area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/HideRansomwareDataRecovery</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Security Center/Virus and threat protection/Hide the Virus and threat protection area</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsDefenderSecurityCenter/DisableVirusUI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender SmartScreen/Explorer/Configure App Install Control</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/SmartScreen/EnableAppInstallControl</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender SmartScreen/Explorer/Configure Windows Defender SmartScreen</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/SmartScreen/EnableSmartScreenInShell</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender SmartScreen/Explorer/Configure Windows Defender SmartScreen</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/SmartScreen/PreventOverrideForFilesInShell</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender/MAPS/Join Microsoft MAPS</Name>
@@ -3374,92 +4454,122 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Game Recording and Broadcasting/Enables or disables Windows Game Recording and Broadcasting</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/AllowGameDVR</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Ink Workspace/Allow suggested apps in Windows Ink Workspace</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsInkWorkspace/AllowSuggestedAppsInWindowsInkWorkspace</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Ink Workspace/Allow Windows Ink Workspace</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsInkWorkspace/AllowWindowsInkWorkspace</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Installer/Allow user control over installs</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAllowUserControlOverInstall</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Installer/Always install with elevated privileges</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Logon Options/Sign-in last interactive user automatically after a system-initiated restart</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/SignInLastInteractiveUserAutomaticallyAfterASystemInitiatedRestart</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows PowerShell/Turn on PowerShell Script Block Logging</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsPowerShell/TurnOnPowerShellScriptBlockLogging</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Client/Allow Basic authentication</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/AllowBasicAuthentication_Client</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Client</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Client/Allow CredSSP authentication</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/AllowCredSSPAuthenticationClient</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowCredSSPAuthenticationClient</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Client/Allow unencrypted traffic</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/AllowUnencryptedTraffic_Client</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Client</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Client/Disallow Digest authentication</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/DisallowDigestAuthentication</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowDigestAuthentication</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Client/Disallow Negotiate authentication</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/DisallowNegotiateAuthenticationClient</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowNegotiateAuthenticationClient</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Client/Trusted Hosts</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/TrustedHosts</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/TrustedHosts</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Allow Basic authentication</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/AllowBasicAuthentication_Service</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Service</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Allow CredSSP authentication</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/AllowCredSSPAuthenticationService</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowCredSSPAuthenticationService</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Allow remote server management through WinRM</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/AllowRemoteServerManagement</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowRemoteServerManagement</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Allow unencrypted traffic</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/AllowUnencryptedTraffic_Service</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Service</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Disallow Negotiate authentication</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/DisallowNegotiateAuthenticationService</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowNegotiateAuthenticationService</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Disallow WinRM from storing RunAs credentials</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/DisallowStoringOfRunAsCredentials</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowStoringOfRunAsCredentials</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Specify channel binding token hardening level</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagememt/SpecifyChannelBindingTokenHardeningLevel</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/SpecifyChannelBindingTokenHardeningLevel</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
@@ -3467,13 +4577,13 @@
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Turn On Compatibility HTTP Listener</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/TurnOnCompatibilityHTTPListener</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Management (WinRM)/WinRM Service/Turn On Compatibility HTTPS Listener</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/TurnOnCompatibilityHTTPSListener</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Shell/Allow Remote Shell Access</Name>
@@ -3503,13 +4613,13 @@
       <Name>Windows Components/Windows Remote Shell/Specify maximum number of processes per Shell</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteShell/SpecifyMaxProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Shell/Specify maximum number of remote shells per user</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/RemoteShell/SpecifyMaxRemoteShells</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Remote Shell/Specify Shell Timeout</Name>
@@ -3530,6 +4640,18 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Allow updates to be downloaded automatically over metered connections</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/AllowAutoWindowsUpdateDownloadOverMeteredNetwork</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Automatic Updates detection frequency</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/DetectionFrequency</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Configure Automatic Updates</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/AllowAutoUpdate</CspUri>
       <CspName>Policy</CspName>
@@ -3537,21 +4659,27 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Configure auto-restart reminder notifications for updates</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/AutoRestartNotificationSchedule</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Configure auto-restart required notification for updates</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/AutoRestartRequiredNotificationDismissal</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Configure auto-restart warning notifications schedule for updates</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/ScheduleRestartWarning</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Do not allow update deferral policies to cause scans against Windows Update</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/DisableDualScan</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Do not connect to any Windows Update Internet locations</Name>
@@ -3561,21 +4689,27 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Do not include drivers with Windows Updates</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/ExcludeWUDriversInQualityUpdate</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Specify active hours range for auto-restarts</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/ActiveHoursMaxRange</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Specify deadline before auto-restart for update installation</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/AutoRestartDeadlinePeriodInDays</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Specify Engaged restart transition and notification schedule for updates</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/EngagedRestartTransitionSchedule</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Specify intranet Microsoft update service location</Name>
@@ -3591,27 +4725,33 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Turn off auto-restart notifications for update installations</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/SetAutoRestartNotificationDisable</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Update Power Policy for Cart Restarts</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/SetEDURestart</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Windows Update for Business/Manage preview builds</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/ManagePreviewBuilds</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Windows Update for Business/Select when Preview Builds and Feature Updates are received</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/PauseFeatureUpdatesStartTime</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Windows Update for Business/Select when Quality Updates are received</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/PauseQualityUpdatesStartTime</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="InOutboundFirewallPolicyMap">
       <Name>Windows Firewall</Name>
@@ -3637,13 +4777,19 @@
       <Name>Control Panel/Printers/Point and Print Restrictions</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/Printers/PointAndPrintRestrictions_User</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Desktop/Prohibit User from manually redirecting Profile Folders</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/Desktop/PreventUserRedirectionOfProfileFolders</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Start Menu and Taskbar/Disable context menus in the Start Menu</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Start/DisableContextMenus</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Start Menu and Taskbar/Force Start to be either full screen size or menu size</Name>
@@ -3658,10 +4804,22 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Start Menu and Taskbar/Remove the People Bar from the taskbar</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Start/HidePeopleBar</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Start Menu and Taskbar/Start Layout</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/Start/StartLayout</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Display/Configure Per-Process System DPI settings</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Display/EnablePerProcessDpi</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Removable Storage Access/All Removable Storage classes: Deny all access</Name>
@@ -3692,6 +4850,12 @@
       <CspUri>./User/Vendor/MSFT/Policy/Config/Autoplay/DisallowAutoplayForNonVolume./Devices</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/AutoPlay Policies/Disallow Autoplay for non-volume devices</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Autoplay/DisallowAutoplayForNonVolumeDevices</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/AutoPlay Policies/Set the default behavior for AutoRun</Name>
@@ -3731,9 +4895,9 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Allow Telemetry</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/System/AllowTelemetry</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Add a specific list of search providers to the user's list of search providers</Name>
@@ -3853,7 +5017,7 @@
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Internet Zone/Allow cut, copy or paste operations from the clipboard via script</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Internet Zone/Allow drag and drop or copy and paste files</Name>
@@ -3908,6 +5072,12 @@
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Internet Zone/Allow VBScript to run in Internet Explorer</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Internet Zone/Automatic prompting for ActiveX controls</Name>
@@ -4348,6 +5518,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Locked-Down Intranet Zone/Java permissions</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetJavaPermissions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Locked-Down Intranet Zone/Navigate windows and frames across different domains</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetZoneNavigateWindowsAndFrames</CspUri>
       <CspName>Policy</CspName>
@@ -4535,7 +5711,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Locked-Down Trusted Sites Zone Template</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowsLockedDownTrustedSiteZoneTemplate</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowsLockedDownTrustedSitesZoneTemplate</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
@@ -4639,7 +5815,7 @@
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Allow cut, copy or paste operations from the clipboard via script</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Allow drag and drop or copy and paste files</Name>
@@ -4706,6 +5882,12 @@
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Allow VBScript to run in Internet Explorer</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Automatic prompting for ActiveX controls</Name>
@@ -4829,7 +6011,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Restricted Sites Zone/Turn on Cross-Site Scripting Filter</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneTurnOnCrossSiteScriptingFilter</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
@@ -4907,7 +6089,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Internet Control Panel/Security Page/Trusted Sites Zone/Don't run antimalware programs against ActiveX controls</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDontRunAntimalwareProgramsAgainstActiveXControls</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
@@ -5065,7 +6247,13 @@
       <Name>Windows Components/Internet Explorer/Security Features/Binary Behavior Security Restriction/Internet Explorer Processes</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Consistent Mime Handling/Internet Explorer Processes</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Mime Sniffing Safety Feature/Internet Explorer Processes</Name>
@@ -5089,25 +6277,49 @@
       <Name>Windows Components/Internet Explorer/Security Features/Protection From Zone Elevation/All Processes</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Protection From Zone Elevation/Internet Explorer Processes</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Restrict ActiveX Install/All Processes</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Restrict ActiveX Install/Internet Explorer Processes</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Restrict File Download/All Processes</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Restrict File Download/Internet Explorer Processes</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Scripted Window Security Restrictions/All Processes</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Scripted Window Security Restrictions/Internet Explorer Processes</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Specify use of ActiveX Installer Service for installation of ActiveX controls</Name>
@@ -5152,22 +6364,40 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Windows Components/Microsoft Edge/Allow Address bar drop-down list suggestions</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <Name>Windows Components/Microsoft Edge/Allow a shared Books folder</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/UseSharedFolderForBooks</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Allow Address bar drop-down list suggestions</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowAddressBarDropdown</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Allow Adobe Flash</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowFlash</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow clearing browsing data on exit</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ClearBrowsingDataOnExit</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow Developer Tools</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowDeveloperTools</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Allow extended telemetry for the Books tab</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/EnableExtendedBooksTelemetry</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow Extensions</Name>
@@ -5183,21 +6413,27 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow Microsoft Compatibility List</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowMicrosoftCompatibilityList</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Allow search engine customization</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowSearchEngineCustomization</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Always show the Books Library in Microsoft Edge</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AlwaysEnableBooksLibrary</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure additional search engines</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureAdditionalSearchEngines</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure Autofill</Name>
@@ -5249,9 +6485,15 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure Start pages</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/HomePages</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Configure the Adobe Flash Click-to-Run setting</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowFlashClickToRun</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure the Enterprise Mode Site List</Name>
@@ -5261,36 +6503,36 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Configure Windows Defender SmartScreen</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowSmartScreen</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Disable lockdown of Start pages</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/DisableLockdownOfStartPages</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Keep favorites in sync between Internet Explorer and Microsoft Edge</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/SyncFavoritesBetweenIEAndMicrosoftEdge</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent access to the about:flags page in Microsoft Edge</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventAccessToAboutFlagsInMicrosoftEdge</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Windows Components/Microsoft Edge/Prevent bypassing SmartScreen prompts for files</Name>
+      <Name>Windows Components/Microsoft Edge/Prevent bypassing Windows Defender SmartScreen prompts for files</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverrideForFiles</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
-      <Name>Windows Components/Microsoft Edge/Prevent bypassing SmartScreen prompts for sites</Name>
+      <Name>Windows Components/Microsoft Edge/Prevent bypassing Windows Defender SmartScreen prompts for sites</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverride</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
@@ -5299,31 +6541,49 @@
       <Name>Windows Components/Microsoft Edge/Prevent bypassing Windows Defender SmartScreen prompts for files</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent bypassing Windows Defender SmartScreen prompts for sites</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Prevent changes to Favorites on Microsoft Edge</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/LockdownFavorites</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent Microsoft Edge from gathering Live Tile information when pinning a site to Start</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventLiveTileDataCollection</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Prevent Microsoft Edge from starting and loading the Start and New Tab page at Windows startup and each time Microsoft Edge is closed</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventTabPreloading</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent the First Run webpage from opening on Microsoft Edge</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventFirstRunPage</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Prevent using Localhost IP address for WebRTC</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventUsingLocalHostIPAddressForWebRTC</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Microsoft Edge/Provision Favorites</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ProvisionFavorites</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Send all intranet sites to Internet Explorer 11</Name>
@@ -5333,9 +6593,9 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Set default search engine</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/</CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/SetDefaultSearchEngine</CspUri>
       <CspName>Policy</CspName>
-      <Version>TBD</Version>
+      <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Microsoft Edge/Show message when opening sites in Internet Explorer</Name>
@@ -5348,6 +6608,24 @@
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEnclosureDownloading</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Store/Only display the private store within the Microsoft Store</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/ApplicationManagement/RequirePrivateStoreOnly</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Installer/Always install with elevated privileges</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows PowerShell/Turn on PowerShell Script Block Logging</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/WindowsPowerShell/TurnOnPowerShellScriptBlockLogging</CspUri>
+      <CspName>Policy</CspName>
+      <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Remove access to use all Windows Update features</Name>
