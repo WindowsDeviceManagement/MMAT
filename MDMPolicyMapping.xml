@@ -206,6 +206,12 @@
       <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>MS Security Guide/Turn on Windows Defender protection against Potentially Unwanted Applications (DEPRECATED)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/TurnOnWindowsDefenderProtectionAgainstPotentiallyUnwantedApplications</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>MS Security Guide/WDigest Authentication (disabling may require KB2871997)</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication</CspUri>
       <CspName>Policy</CspName>
@@ -1136,6 +1142,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Logon/Show first sign-in animation </Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnableFirstLogonAnimation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Logon/Turn off app notifications on the lock screen</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/DisableLockScreenAppNotifications</CspUri>
       <CspName>Policy</CspName>
@@ -1184,6 +1196,54 @@
       <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Button Settings/Select the lid switch action (on battery)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/SelectLidCloseActionOnBattery</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Button Settings/Select the lid switch action (plugged in)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/SelectLidCloseActionPluggedIn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Button Settings/Select the Power button action (on battery)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/SelectPowerButtonActionOnBattery</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Button Settings/Select the Power button action (plugged in)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/SelectPowerButtonActionPluggedIn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Button Settings/Select the Sleep button action (on battery)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/SelectSleepButtonActionOnBattery</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Button Settings/Select the Sleep button action (plugged in)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/SelectSleepButtonActionPluggedIn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Energy Saver Settings/Energy Saver Battery Threshold (on battery)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/EnergySaverBatteryThresholdOnBattery</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Energy Saver Settings/Energy Saver Battery Threshold (plugged in)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/EnergySaverBatteryThresholdPluggedIn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Power Management/Sleep Settings/Allow standby states (S1-S3) when sleeping (on battery)</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/AllowStandbyStatesWhenSleepingOnBattery</CspUri>
       <CspName>Policy</CspName>
@@ -1230,6 +1290,30 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/StandbyTimeoutPluggedIn</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Sleep Settings/Specify the unattended sleep timeout (on battery)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/UnattendedSleepTimeoutOnBattery</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Sleep Settings/Specify the unattended sleep timeout (plugged in)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/UnattendedSleepTimeoutPluggedIn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Sleep Settings/Turn off hybrid sleep (on battery)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/TurnOffHybridSleepOnBattery</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Power Management/Sleep Settings/Turn off hybrid sleep (plugged in)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Power/TurnOffHybridSleepPluggedIn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Power Management/Video and Display Settings/Turn off the display (on battery)</Name>
@@ -1286,16 +1370,64 @@
       <Version>17755</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Service Control Manager Settings/Security Settings/Enable svchost.exe mitigation options</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ServiceControlManager/SvchostProcessMitigation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Storage Health/Allow downloading updates to the Disk Failure Prediction Model</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/AllowDiskHealthModelUpdates</CspUri>
       <CspName>Policy</CspName>
       <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Storage Sense/Allow Storage Sense</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/AllowStorageSenseGlobal</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Storage Sense/Allow Storage Sense Temporary Files cleanup</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/AllowStorageSenseTemporaryFilesCleanup</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Storage Sense/Configure Storage Sense cadence</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/ConfigStorageSenseGlobalCadence</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Storage Sense/Configure Storage Sense Cloud Content dehydration threshold</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/ConfigStorageSenseCloudContentDehydrationThreshold</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Storage Sense/Configure Storage Sense Recycle Bin cleanup threshold</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/ConfigStorageSenseRecycleBinCleanupThreshold</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Storage Sense/Configure Storage Storage Downloads cleanup threshold</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Storage/ConfigStorageSenseDownloadsCleanupThreshold</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/System Restore/Turn off System Restore</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/System/DisableSystemRestore</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>System/Troubleshooting and Diagnostics/Microsoft Support Diagnostic Tool/Troubleshooting: Allow users to access recommended troubleshooting for known problems</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Troubleshooting/AllowRecommendations</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>System/Trusted Platform Module Services/Configure the system to clear the TPM if it is not in a ready state.</Name>
@@ -1688,6 +1820,18 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps activate with voice</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsActivateWithVoice</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/App Privacy/Let Windows apps activate with voice while the system is locked</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsActivateWithVoiceAboveLock</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/App Privacy/Let Windows apps communicate with unpaired devices</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsSyncWithDevices_ForceAllowTheseApps</CspUri>
       <CspName>Policy</CspName>
@@ -1814,6 +1958,318 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow a shared Books folder</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/UseSharedFolderForBooks</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Address bar drop-down list suggestions</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowAddressBarDropdown</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Adobe Flash</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowFlash</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow clearing browsing data on exit</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ClearBrowsingDataOnExit</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Developer Tools</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowDeveloperTools</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow extended telemetry for the Books tab</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/EnableExtendedBooksTelemetry</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Extensions</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowExtensions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow FullScreen Mode</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowFullScreenMode</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow InPrivate browsing</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowInPrivate</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Microsoft Compatibility List</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowMicrosoftCompatibilityList</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Microsoft Edge to pre-launch at Windows startup, when the system is idle, and each time Microsoft Edge is closed</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowPrelaunch</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Microsoft Edge to start and load the Start and New Tab page at Windows startup and each time Microsoft Edge is closed</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowTabPreloading</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow printing</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowPrinting</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Saving History</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowSavingHistory</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow search engine customization</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowSearchEngineCustomization</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Sideloading of extension</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowSideloadingOfExtensions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow web content on New Tab page</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowWebContentOnNewTabPage</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Always show the Books Library in Microsoft Edge</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AlwaysEnableBooksLibrary</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure additional search engines</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureAdditionalSearchEngines</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Autofill</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowAutofill</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure cookies</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowCookies</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Do Not Track</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowDoNotTrack</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Favorites Bar</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureFavoritesBar</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Home Button</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureHomeButton</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure kiosk mode</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureKioskMode</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure kiosk reset after idle timeout</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureKioskResetAfterIdleTimeout</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Open Microsoft Edge With</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureOpenMicrosoftEdgeWith</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Password Manager</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowPasswordManager</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Pop-up Blocker</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowPopups</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure search suggestions in Address bar</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowSearchSuggestionsinAddressBar</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Start pages</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/HomePages</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure the Adobe Flash Click-to-Run setting</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowFlashClickToRun</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure the Enterprise Mode Site List</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/EnterpriseModeSiteList</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Windows Defender SmartScreen</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/AllowSmartScreen</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Disable lockdown of Start pages</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/DisableLockdownOfStartPages</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Keep favorites in sync between Internet Explorer and Microsoft Edge</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/SyncFavoritesBetweenIEAndMicrosoftEdge</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent access to the about:flags page in BROWSER_NAME_REPLACEMENT_STRING</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventAccessToAboutFlagsInMicrosoftEdge</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent BROWSER_NAME_REPLACEMENT_STRING from gathering Live Tile information when pinning a site to Start</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventLiveTileDataCollection</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent bypassing Windows Defender SmartScreen prompts for files</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverrideForFiles</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent bypassing Windows Defender SmartScreen prompts for sites</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverride</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent certificate error overrides</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventCertErrorOverrides</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent changes to Favorites on Microsoft Edge</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/LockdownFavorites</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent the First Run webpage from opening on BROWSER_NAME_REPLACEMENT_STRING</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventFirstRunPage</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent turning off required extensions</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventTurningOffRequiredExtensions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent using Localhost IP address for WebRTC</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/PreventUsingLocalHostIPAddressForWebRTC</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Provision Favorites</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ProvisionFavorites</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Send all intranet sites to Internet Explorer 11</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/SendIntranetTraffictoInternetExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Set default search engine</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/SetDefaultSearchEngine</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Set Home Button URL</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/SetHomeButtonURL</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Set New Tab page URL</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/SetNewTabPageURL</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Show message when opening sites in Internet Explorer</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ShowMessageWhenOpeningSitesInInternetExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Unlock Home Button</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/UnlockHomeButton</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Camera/Allow Use of Camera</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Camera/AllowCamera</CspUri>
       <CspName>Policy</CspName>
@@ -1898,6 +2354,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Data Collection and Preview Builds/Allow commercial data pipeline</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/AllowCommercialDataPipeline</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Allow device name to be sent in Windows diagnostic data</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/System/AllowDeviceNameInDiagnosticData</CspUri>
       <CspName>Policy</CspName>
@@ -1916,6 +2378,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Data Collection and Preview Builds/Configure collection of browsing data for Desktop Analytics</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureTelemetryForMicrosoft365Analytics</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Configure collection of browsing data for Microsoft 365 Analytics</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Browser/ConfigureTelemetryForMicrosoft365Analytics</CspUri>
       <CspName>Policy</CspName>
@@ -1926,6 +2394,12 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/System/TelemetryProxy </CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Data Collection and Preview Builds/Configure diagnostic data upload endpoint for Desktop Analytics</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/ConfigureMicrosoft365UploadEndpoint</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Configure Microsoft 365 Update Readiness upload endpoint</Name>
@@ -2000,10 +2474,22 @@
       <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Delay Background download Cache Server fallback (in seconds)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODelayCacheServerFallbackBackground</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Delay background download from http (in secs)</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODelayBackgroundDownloadFromHttp</CspUri>
       <CspName>Policy</CspName>
       <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Delivery Optimization/Delay Foreground download Cache Server fallback (in seconds)</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODelayCacheServerFallbackForeground</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Delivery Optimization/Delay Foreground download from http (in secs)</Name>
@@ -2186,6 +2672,12 @@
       <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/File Explorer/Show lock in the user tile menu</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Experience/ShowLockOnUserTile</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/File Explorer/Turn off Data Execution Prevention for Explorer</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer</CspUri>
       <CspName>Policy</CspName>
@@ -2196,6 +2688,12 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffHeapTerminationOnCorruption</CspUri>
       <CspName>Policy</CspName>
       <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/File History/Turn off File History</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/TurnOffFileHistory</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Find My Device/Turn On/Off Find My Device</Name>
@@ -2210,10 +2708,28 @@
       <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/IME/Configure Japanese IME version</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/TextInput/ConfigureJapaneseIMEVersion</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Add a specific list of search providers to the user's list of search providers</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AddSearchProvider</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Allow Microsoft services to provide enhanced suggestions as the user types in the Address bar</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedSuggestionsInAddressBar</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Compatibility View/Turn off Compatibility View</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCompatView</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Compatibility View/Turn on Internet Explorer Standards Mode for local intranet</Name>
@@ -3542,6 +4058,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Add-on Management/Turn off automatic download of the ActiveX VersionList</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableActiveXVersionListAutoDownload</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Add-on Management/Turn off blocking of outdated ActiveX controls for Internet Explorer</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotBlockOutdatedActiveXControls</CspUri>
       <CspName>Policy</CspName>
@@ -3656,16 +4178,34 @@
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Specify default behavior for a new tab</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/NewTabDefaultPage</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Specify use of ActiveX Installer Service for installation of ActiveX controls</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/SpecifyUseOfActiveXInstallerService</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Turn off browser geolocation</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableGeolocation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Turn off Crash Detection</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCrashDetection</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Turn off the auto-complete feature for web addresses</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableWebAddressAutoComplete</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Turn off the Security Settings Check feature</Name>
@@ -3702,6 +4242,12 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Location/EnableLocation</CspUri>
       <CspName>Policy</CspName>
       <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Maintenance Scheduler/Automatic Maintenance WakeUp Policy</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/AutomaticMaintenanceWakeUp</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Maps/Turn off Automatic Download and Update of Map Data</Name>
@@ -4118,6 +4664,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/RSS Feeds/Turn off background synchronization for feeds and Web Slices</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableFeedsBackgroundSync</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Search/Allow Cloud Search</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Search/AllowCloudSearch</CspUri>
       <CspName>Policy</CspName>
@@ -4376,6 +4928,12 @@
       <Version>17755</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Scan/Check for the latest virus and spyware security intelligence before running a scheduled scan</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/CheckForSignaturesBeforeRunningScan</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Scan/Configure low CPU priority for scheduled scans</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/EnableLowCPUPriority</CspUri>
       <CspName>Policy</CspName>
@@ -4452,6 +5010,30 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/AllowEmailScanning</CspUri>
       <CspName>Policy</CspName>
       <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Security Intelligence Updates/Define file shares for downloading security intelligence updates</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/SignatureUpdateFileSharesSources</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Security Intelligence Updates/Define security intelligence location for VDI clients.</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/SecurityIntelligenceLocation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Security Intelligence Updates/Define the order of sources for downloading security intelligence updates</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/SignatureUpdateFallbackOrder</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Antivirus/Security Intelligence Updates/Specify the interval to check for security intelligence updates</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Defender/SignatureUpdateInterval</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Antivirus/Signature Updates/Define file shares for downloading definition updates</Name>
@@ -4602,6 +5184,12 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AllowAppHVSI</CspUri>
       <CspName>Policy</CspName>
       <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Defender Application Guard/Turn on Windows Defender Application Guard in Managed Mode</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/AppHVSI/AllowAppHVSI</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Defender Exploit Guard/Exploit Protection/Use a common set of exploit protection settings</Name>
@@ -4830,6 +5418,18 @@
       <CspUri>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges</CspUri>
       <CspName>Policy</CspName>
       <Version>17130</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Logon Options/Configure the mode of automatically signing in and locking last interactive user after a restart or cold boot</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/ConfigAutomaticRestartSignOn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Logon Options/Sign-in and lock last interactive user automatically after a restart</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/AllowAutomaticRestartSignOn</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Logon Options/Sign-in last interactive user automatically after a system-initiated restart</Name>
@@ -5204,6 +5804,30 @@
       <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Specify deadlines for automatic updates and restarts</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineNoAutoReboot</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Specify deadlines for automatic updates and restarts</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineForQualityUpdates</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Specify deadlines for automatic updates and restarts</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineForFeatureUpdates</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Windows Update/Specify deadlines for automatic updates and restarts</Name>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/ConfigureDeadlineGracePeriod</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Windows Update/Specify Engaged restart transition and notification schedule for updates</Name>
       <CspUri>./Device/Vendor/MSFT/Policy/Config/Update/EngagedRestartTransitionSchedule</CspUri>
       <CspName>Policy</CspName>
@@ -5392,6 +6016,318 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow a shared Books folder</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/UseSharedFolderForBooks</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Address bar drop-down list suggestions</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowAddressBarDropdown</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Adobe Flash</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowFlash</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow clearing browsing data on exit</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ClearBrowsingDataOnExit</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Developer Tools</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowDeveloperTools</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow extended telemetry for the Books tab</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/EnableExtendedBooksTelemetry</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Extensions</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowExtensions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow FullScreen Mode</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowFullScreenMode</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow InPrivate browsing</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowInPrivate</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Microsoft Compatibility List</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowMicrosoftCompatibilityList</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Microsoft Edge to pre-launch at Windows startup, when the system is idle, and each time Microsoft Edge is closed</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowPrelaunch</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Microsoft Edge to start and load the Start and New Tab page at Windows startup and each time Microsoft Edge is closed</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowTabPreloading</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow printing</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowPrinting</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Saving History</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowSavingHistory</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow search engine customization</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowSearchEngineCustomization</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow Sideloading of extension</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowSideloadingOfExtensions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Allow web content on New Tab page</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowWebContentOnNewTabPage</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Always show the Books Library in Microsoft Edge</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AlwaysEnableBooksLibrary</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure additional search engines</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureAdditionalSearchEngines</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Autofill</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowAutofill</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure cookies</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowCookies</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Do Not Track</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowDoNotTrack</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Favorites Bar</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureFavoritesBar</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Home Button</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureHomeButton</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure kiosk mode</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureKioskMode</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure kiosk reset after idle timeout</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureKioskResetAfterIdleTimeout</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Open Microsoft Edge With</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureOpenMicrosoftEdgeWith</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Password Manager</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowPasswordManager</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Pop-up Blocker</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowPopups</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure search suggestions in Address bar</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowSearchSuggestionsinAddressBar</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Start pages</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/HomePages</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure the Adobe Flash Click-to-Run setting</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowFlashClickToRun</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure the Enterprise Mode Site List</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/EnterpriseModeSiteList</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Configure Windows Defender SmartScreen</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/AllowSmartScreen</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Disable lockdown of Start pages</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/DisableLockdownOfStartPages</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Keep favorites in sync between Internet Explorer and Microsoft Edge</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/SyncFavoritesBetweenIEAndMicrosoftEdge</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent access to the about:flags page in BROWSER_NAME_REPLACEMENT_STRING</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventAccessToAboutFlagsInMicrosoftEdge</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent BROWSER_NAME_REPLACEMENT_STRING from gathering Live Tile information when pinning a site to Start</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventLiveTileDataCollection</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent bypassing Windows Defender SmartScreen prompts for files</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverrideForFiles</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent bypassing Windows Defender SmartScreen prompts for sites</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventSmartScreenPromptOverride</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent certificate error overrides</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventCertErrorOverrides</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent changes to Favorites on Microsoft Edge</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/LockdownFavorites</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent the First Run webpage from opening on BROWSER_NAME_REPLACEMENT_STRING</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventFirstRunPage</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent turning off required extensions</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventTurningOffRequiredExtensions</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Prevent using Localhost IP address for WebRTC</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/PreventUsingLocalHostIPAddressForWebRTC</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Provision Favorites</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ProvisionFavorites</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Send all intranet sites to Internet Explorer 11</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/SendIntranetTraffictoInternetExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Set default search engine</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/SetDefaultSearchEngine</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Set Home Button URL</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/SetHomeButtonURL</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Set New Tab page URL</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/SetNewTabPageURL</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Show message when opening sites in Internet Explorer</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ShowMessageWhenOpeningSitesInInternetExplorer</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/BROWSER_NAME_REPLACEMENT_STRING/Unlock Home Button</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/UnlockHomeButton</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Cloud Content/Configure Windows spotlight on lock screen</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/Experience/ConfigureWindowsSpotlightOnLockScreen</CspUri>
       <CspName>Policy</CspName>
@@ -5422,6 +6358,12 @@
       <Version>14393</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Data Collection and Preview Builds/Configure collection of browsing data for Desktop Analytics</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureTelemetryForMicrosoft365Analytics</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Configure collection of browsing data for Microsoft 365 Analytics</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/Browser/ConfigureTelemetryForMicrosoft365Analytics</CspUri>
       <CspName>Policy</CspName>
@@ -5432,6 +6374,18 @@
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AddSearchProvider</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Allow Microsoft services to provide enhanced suggestions as the user types in the Address bar</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedSuggestionsInAddressBar</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Compatibility View/Turn off Compatibility View</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCompatView</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Compatibility View/Turn on Internet Explorer Standards Mode for local intranet</Name>
@@ -6760,6 +7714,12 @@
       <Version>15063</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Security Features/Add-on Management/Turn off automatic download of the ActiveX VersionList</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DisableActiveXVersionListAutoDownload</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Security Features/Add-on Management/Turn off blocking of outdated ActiveX controls for Internet Explorer</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotBlockOutdatedActiveXControls</CspUri>
       <CspName>Policy</CspName>
@@ -6850,16 +7810,34 @@
       <Version>17130</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Specify default behavior for a new tab</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/NewTabDefaultPage</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Specify use of ActiveX Installer Service for installation of ActiveX controls</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/SpecifyUseOfActiveXInstallerService</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Turn off browser geolocation</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DisableGeolocation</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Turn off Crash Detection</Name>
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCrashDetection</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/Internet Explorer/Turn off the auto-complete feature for web addresses</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DisableWebAddressAutoComplete</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Turn off the Security Settings Check feature</Name>
@@ -7244,6 +8222,12 @@
       <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEnclosureDownloading</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
+    </PolicyMap>
+    <PolicyMap xsi:type="AdmxPolicyMap">
+      <Name>Windows Components/RSS Feeds/Turn off background synchronization for feeds and Web Slices</Name>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/DisableFeedsBackgroundSync</CspUri>
+      <CspName>Policy</CspName>
+      <Version>18362</Version>
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Store/Only display the private store within the Microsoft Store</Name>
