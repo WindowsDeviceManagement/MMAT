@@ -1,6 +1,6 @@
 # MMAT-MDM Migration Analysis Tool
 
-Microsoft created the MDM Migration Analysis Tool ñ aka MMAT  - to help.  
+Microsoft created the MDM Migration Analysis Tool ‚Äì aka MMAT  - to help.  
 MMAT will determine which Group Policies have been set for a target user/computer and cross-reference against its built-in list of supported MDM policies.  
 MMAT will then generate both XML and HTML reports indicating the level of support for each Group Policy in terms of MDM equivalents.
 
@@ -31,7 +31,7 @@ To run this tool follow the instructions below:
 	Windows 8 - https://www.microsoft.com/en-us/download/details.aspx?id=28972 
 	
 	Window 8.1 - https://www.microsoft.com/en-us/download/details.aspx?id=39296
-		Note: The installation may be stuck on ìSearching for updates on this computerî. You can follow the solution on Appendix-A on "MDM Migration Analysis Tool Instructions.pdf". 
+		Note: The installation may be stuck on ‚ÄúSearching for updates on this computer‚Äù. You can follow the solution on Appendix-A on "MDM Migration Analysis Tool Instructions.pdf". 
 		The basic idea is to extract the CAB file from the exe and install manually from command line.
 
 	Windows 10 - https://www.microsoft.com/en-us/download/details.aspx?id=45520
@@ -45,9 +45,9 @@ To run this tool follow the instructions below:
 
 
 
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
-$VerbosePreference="Continue"
-./Invoke-MdmMigrationAnalysisTool.ps1 -collectGPOReports -runAnalysisTool 
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process  
+$VerbosePreference="Continue"  
+./Invoke-MdmMigrationAnalysisTool.ps1 -collectGPOReports -runAnalysisTool
 
 
 
