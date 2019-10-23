@@ -43,14 +43,11 @@ To run this tool follow the instructions below:
 
 5) Run the following scripts:
 
-
-
+```powershell
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
-
 $VerbosePreference="Continue"
-
 ./Invoke-MdmMigrationAnalysisTool.ps1 -collectGPOReports -runAnalysisTool 
-
+```
 
 
 6) When Invoke-MdmMigrationAnalysisTool.ps1 is completed,it will generate:
