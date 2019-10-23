@@ -45,7 +45,9 @@ To run this tool follow the instructions below:
 
 
 
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process $VerbosePreference="Continue"
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+
+$VerbosePreference="Continue"
 
 ./Invoke-MdmMigrationAnalysisTool.ps1 -collectGPOReports -runAnalysisTool 
 
