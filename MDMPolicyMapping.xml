@@ -243,7 +243,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="OptionalPolicyMap">
       <Name>Network access: Do not allow anonymous enumeration of SAM accounts and shares</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccountsAndShares</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
@@ -639,7 +639,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="SecurityAccountPolicyMap">
       <Name>PasswordComplexity</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PasswordComplexity</CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinDevicePasswordComplexCharacters</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
