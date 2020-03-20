@@ -315,7 +315,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Network/Network Connections/Prohibit installation and configuration of Network Bridge on your DNS domain network</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/Connectivity/ProhibitInstallationAndConfigurationOfNetworkBridge </CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/Connectivity/ProhibitInstallationAndConfigurationOfNetworkBridge</CspUri>
       <CspName>Policy</CspName>
       <Version>16299</Version>
     </PolicyMap>
@@ -1677,7 +1677,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/ActiveX Installer Service/Approved Installation Sites for ActiveX Controls</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/ActiveXControls/ApprovedInstallationSites </CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/ActiveXControls/ApprovedInstallationSites</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
@@ -1911,7 +1911,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/BitLocker Drive Encryption/Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)</Name>
-      <CspUri>./Device/Vendor/MSFT/BitLocker/BitEncryptionMethodByDriveType </CspUri>
+      <CspUri>./Device/Vendor/MSFT/BitLocker/BitEncryptionMethodByDriveType</CspUri>
       <CspName>BitLocker</CspName>
       <Version>15063</Version>
     </PolicyMap>
@@ -2391,7 +2391,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Data Collection and Preview Builds/Configure Connected User Experiences and Telemetry</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/TelemetryProxy </CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/System/TelemetryProxy</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
@@ -2739,7 +2739,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Compatibility View/Use Policy List of Internet Explorer 7 sites</Name>
-      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowInternetExplorer7PolicyList </CspUri>
+      <CspUri>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowInternetExplorer7PolicyList</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
@@ -6395,7 +6395,7 @@
     </PolicyMap>
     <PolicyMap xsi:type="AdmxPolicyMap">
       <Name>Windows Components/Internet Explorer/Compatibility View/Use Policy List of Internet Explorer 7 sites</Name>
-      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowInternetExplorer7PolicyList </CspUri>
+      <CspUri>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowInternetExplorer7PolicyList</CspUri>
       <CspName>Policy</CspName>
       <Version>15063</Version>
     </PolicyMap>
