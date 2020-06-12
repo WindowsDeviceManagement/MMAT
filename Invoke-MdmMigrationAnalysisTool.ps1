@@ -303,7 +303,7 @@ function Write-GPOReportForDomain()
 #
 function Verify-RunningOnEnglish
 {
-    $displayName = (Get-Culture).DisplayName
+    $displayName = (Get-UICulture).DisplayName
     if (-not ($displayName -match "English"))
     {
         throw ("Language must be set to English, it is currently <{0}>" -f $displayName)
